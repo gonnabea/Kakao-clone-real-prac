@@ -6,9 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
   <title>Friends</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
+  <header class="top-header">
     <div class="header__top">
       <div class="header__column">
         <i class="fa fa-fighter-jet"></i>
@@ -24,12 +25,12 @@
       </div>
     </div>
   <div class="header__bottom">
-    <div class="header__column"></div>
-    <span class="header__text">Manage</span>
-    <div class="header__column"></div>
-    <span class="header__text">Friends <span class="header__number">1</span>
-    <div class="header__column"></div>
-    <i class="fa fa-wrench"></i>
+    <div class="header__column">
+    <span class="header__text">Manage</span></div>
+    <div class="header__column">
+    <span class="header__text">Friends <span class="header__number">1</span></div>
+    <div class="header__column">
+    <i class="fa fa-wrench"></i></div>
   </div>
 </header>
 <main class="friends">
@@ -43,28 +44,26 @@
     </header>
     <div class="friends__section-rows">
       <div class="friends__section-row">
-        <a href="profile.html">
-        <img src="" alt="">
-        <span class="friends__section-name">Jiwon</span>
+        <a href="profile.html" class=friends__section-name>
+          <img src="C:\Users\최지원\Pictures\Camera Roll\WIN_20180320_16_58_25_Pro.jpg" alt="">
+       <span class="friends__section-name">Jiwon</span>
       </a>
       </div>
       <div class="friends__section-row">
-        <img src="" alt="">
+        <img src="C:\Users\최지원\Pictures\Camera Roll\WIN_20180320_16_58_25_Pro.jpg" alt="">
         <span class="friends__section-name">Friends' Names Display</span>
       </div>
     </div>
   </section>
   <section class="friends__section">
-      <header class="friends__section-header">
-        <h6 class="friends__section-title"></h6>
-        </header>
+  <div class="friends__section-header">Friends</div>
         <div class="friends__section-rows">
-          <div class="friends__section-row">
+          <div class="friends__section-row with-tagline">
             <div class="firends__section-column">
-              <img src="" alt="">
-              <span class="friends__section-name">Jiwon</span>
+              <img src="C:\Users\최지원\Pictures\Camera Roll\WIN_20180320_16_58_25_Pro.jpg" alt="">
+              <span class="friends__section-name">LYNN </span>
             </div>
-            <span class="friends-section-tagline">
+            <span class="friends__section-tagline">
               A good person with strong power makes the world happy.
             </span>
           </div>
@@ -85,5 +84,8 @@
   <i class="fa fa-ellipsis-h"></i>
   <span class="tab-bar__title">More</span></a>
   </nav>
+  <div class="bigScreenText">
+    <span>Please make your screen smaller</span>
+  </div>
 </body>
 </html>

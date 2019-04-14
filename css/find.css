@@ -1,0 +1,39 @@
+.find .find__options{
+  background-color: #CAB1A3;
+  display:flex;
+  justify-content: space-between;
+  padding-top:25px;
+  padding-bottom: 15px;
+}
+
+.find__options .find__option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left:30px;
+  padding-right: 5px;
+  color:#4164AD;
+}
+
+.find__option i{
+  margin-bottom: 15px;
+}
+
+.find__option span{
+  font-size: 12px;
+}
+
+.find__recommended header{
+  border-bottom:1px solid #CAB1A3;
+  padding:5px 10px;
+  font-size:12px;
+  color:#757575;
+}
+
+.find__recommended .recommended__none{
+  border-bottom:1px solid #CAB1A3;
+  padding:20px 0;
+  font-size:14px;
+  text-align:center;
+  color:#757575;
+}
