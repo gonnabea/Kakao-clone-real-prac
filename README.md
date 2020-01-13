@@ -1,1 +1,1 @@
-# Kakao-clone-real prac
+# Kakao-clone
